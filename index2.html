@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css">
+    <!-- codigo de font awesome -->
+    <script src="https://kit.fontawesome.com/969afb15e0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icono de pestaña -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+</head>
+
+<body>
+
+    <header class="col-12 bg-primary text-center">
+        <h1>JavaScript</h1>
+    </header>
+
+    <main class="col-12 bg-secondary text-center">
+        <ul>
+            <li><a href="index.html">Pagina de Inicio</a></li>
+            <li><a href="index2.html">Json con Jquery</a></li>
+            <li><a href="formulario.html">formulario</a></li>
+        </ul>
+    </main>
+
+    <div class="container">
+        <h2 class="text-center">Ajax</h2>
+        <p class="text-center">Libreria de Jquery</p>
+
+        <!-- Muestra los datos en div -->
+        <p>Muestra datos almacenados en el JSON
+        </p>
+        <div id="contenido"></div>
+        <hr>
+
+        <!-- Muestra los datos en un formulario -->
+        <p>Fornulario </p>
+
+        <label>Nombre</label>
+        <input type="text" id="formNombre" disabled>
+        <br>
+
+        <label>Edad</label>
+        <input type="text" id="formEdad" disabled>
+        <br>
+
+        <label>Dirección</label>
+        <input type="text" id="formDireccion" disabled>
+        <br>
+
+        <label>Telefono</label>
+        <input type="text" id="formTelefono" disabled>
+        <br><br>
+
+        <!-- Boton al presionar llama  a los datos almacenados en el json -->
+        <button id="cargar" class="btn btn-primary">Cargar Datos</button>
+
+        <!-- Boton para eliminar los datos en pantalla y no de archivos -->
+        <button id="elimina" class="btn btn-primary">Eliminar Datos</button>
+
+    </div>
+
+    <footer class="col-12 bg-primary text-center">
+        <h3>JavaScript</h1>
+
+
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-apple"></i>
+            <i class="fa-brands fa-github"></i>
+    </footer>
+
+
+    <!-- Cargar el archivo de js de Jquery siempre va antes los archivos de afuera y despues lo nuestro -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Ejecuta el Archivo de Js -->
+    <script src="js/codigo2.js"></script>
+</body>
+
+</html>
